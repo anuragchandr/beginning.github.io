@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="001.css">
+    <script src="001.js"></script>
+</head>
+<body>
+    <h1>GENERAL CALCULATOR</h1>
+        <input type="text" id="display" readonly>
+        <div>
+            <div id="in" class="new">
+            </div>
+            <br>
+            <div>
+            <button onclick="appendToDisplay('1')" id="button">1</button>
+            <button onclick="appendToDisplay('2')" id="button">2</button>
+            <button onclick="appendToDisplay('3')" id="button">3</button>
+            <button onclick="appendToDisplay('+')" id="button">+</button>
+            </div>
+            <div>
+            <button onclick="appendToDisplay('4')" id="button">4</button>
+            <button onclick="appendToDisplay('5')" id="button">5</button>
+            <button onclick="appendToDisplay('6')" id="button">6</button>
+            <button onclick="appendToDisplay('-')" id="button">-</button>
+            </div>
+            <button onclick="appendToDisplay('7')" id="button">7</button>
+            <button onclick="appendToDisplay('8')" id="button">8</button>
+            <button onclick="appendToDisplay('9')" id="button">9</button>
+
+            <button onclick="appendToDisplay('*')" id="button">*</button>
+            <div>
+            <button onclick="appendToDisplay('0')" id="button">0</button>
+            <button onclick="appendToDisplay('.')" id="button">.</button>
+            <button onclick="clearDisplay()" id="button">C</button>
+            <button onclick="appendToDisplay('/')" id="button">/</button>
+            </div>
+            <div>
+            <button onclick="backspace()">Backspace</button>
+            <button onclick="calculateResult()" id="button">calculate</button>
+            </div>
+        </div>
+    <br>
+    <br>
+    <a href="https://www.instagram.com/anuragchandra.official/" style="color: rgb(121, 87, 65);font-family: sans-serif;">©Anurag Chandra</a>
+</body>
+</html>
