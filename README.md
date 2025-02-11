@@ -1,1 +1,1 @@
-just a beggining story🔥🕉
+for personal learning
